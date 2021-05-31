@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="#009688"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_title_mandor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mandor"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_weight="0.3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tv_mandor"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_mandor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_name"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="0.7"
+            app:layout_constraintLeft_toRightOf="@id/tv_title_mandor"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_title_mandor" />
+
+        <TextView
+            android:id="@+id/tv_title_activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/activity"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_weight="0.3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tv_activity"
+            app:layout_constraintTop_toBottomOf="@id/tv_mandor" />
+
+        <TextView
+            android:id="@+id/tv_activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chopper"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="0.7"
+            app:layout_constraintLeft_toRightOf="@id/tv_title_activity"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_title_activity" />
+
+        <TextView
+            android:id="@+id/tv_title_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/title_location"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_weight="0.3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tv_location"
+            app:layout_constraintTop_toBottomOf="@id/tv_activity" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_location"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="0.7"
+            app:layout_constraintLeft_toRightOf="@id/tv_title_location"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_title_location" />
+
+        <TextView
+            android:id="@+id/tv_title_observer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/observer"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_weight="0.3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tv_observer"
+            app:layout_constraintTop_toBottomOf="@id/tv_location" />
+
+        <!--<Spinner
+            android:id="@+id/sp_list_tk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:paddingStart="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:focusable="false"
+            app:layout_constraintHorizontal_weight="0.7"
+            app:layout_constraintLeft_toRightOf="@id/tv_title_observer"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_title_observer"
+            tools:ignore="RtlSymmetry" />-->
+
+        <TextView
+            android:id="@+id/tv_observer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:paddingStart="5dp"
+            android:text="@string/observer_null"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_weight="0.7"
+            app:layout_constraintLeft_toRightOf="@id/tv_title_observer"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_title_observer"
+            tools:ignore="RtlSymmetry" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

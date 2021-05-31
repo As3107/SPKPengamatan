@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">GGP Observation</string>
+    <string name="splash">QC Apps</string>
+    <string name="logout">Logout</string>
+    <string name="data_null">Data Kosong</string>
+    <string name="ggf_story">Kosong
+    </string>
+    <string name="number">1234</string>
+    <string name="dummy_date">2021-03-20</string>
+    <string name="dummy_name">Agung</string>
+    <string name="message_agree_kasie">Apakah Anda yakin semua data sudah BENAR ?</string>
+    <string name="message_disagree_kasie">Apakah Anda TIDAK SETUJU dan ingin mengembalikan data ke MANDOR yang bersangkutan ?</string>
+    <string name="message_agree_mandor">Apakah Anda yakin semua data sudah BENAR dan meneruskan data ke KASIE ?</string>
+    <string name="message_disagree_mandor">Apakah Anda TIDAK SETUJU dan ingin mengembalikan data ke TK yang bersangkutan ?</string>
+
+    <!--CODE AKTIVITAS-->
+
+    <!--LOGIN-->
+    <string name="content_description">Content Description</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <!--MENU TK-->
+    <string name="tk">TK</string>
+    <string name="chopper">Chopper</string>
+    <string name="ridger_single">Ridger Single Row</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="name">Agung Pambudi</string>
+    <string name="title_edit_chopper">Edit Data Chopper</string>
+
+    <!--MENU MANDOR-->
+    <string name="mandor">Mandor</string>
+    <string name="agree">Setuju</string>
+    <string name="disagree">Tidak Setuju</string>
+    <string name="spk_today">Perintah Kerja Baru</string>
+    <string name="on_process">Sedang Dikerjakan</string>
+    <string name="waiting_approve">Menunggu Persetujuan</string>
+    <string name="revisi_kasie">Permintaan Revisi dari Kasie</string>
+    <string name="revisi_mandor">Permintaan Revisi ke-Mandor</string>
+    <string name="revisi_tk">Permintaan Revisi ke-Pengamat</string>
+    <string name="finish">Selesai</string>
+    <string name="approved">Sudah Disetujui</string>
+    <string name="title_list_data">List Data</string>
+    <string name="title_no_spk">No SPK : </string>
+    <string name="title_location">Lokasi</string>
+    <string name="list_spk">Daftar SPK</string>
+    <string name="date">Tanggal</string>
+    <string name="notes">Catatan</string>
+    <string name="detail_spk">Detail SPK</string>
+    <string name="result_chopper">Hasil Chopper</string>
+
+    <!--MENU KASIE-->
+    <string name="kasie">Kasie</string>
+
+    <string name="pengamat">Pengamat</string>
+    <string name="plot">Plot</string>
+    <string name="bt">BT</string>
+    <string name="th">TH</string>
+    <string name="ar">AR</string>
+    <string name="save">Simpan</string>
+    <string name="send">Send</string>
+    <string name="total">Total</string>
+    <string name="total_sample">Total Sampel</string>
+    <string name="history">Data Riwayat</string>
+    <string name="title_spk_no">SPK No</string>
+    <string name="list_activity">Daftar Aktivitas</string>
+    <string name="title_status">Status</string>
+    <string name="dummy_status">On Proses</string>
+    <string name="revisi">Revisi</string>
+    <string name="dummy_no_spk">SPK07808990</string>
+    <string name="dummy_number">01</string>
+    <string name="item">Item</string>
+    <string name="luas">Luas</string>
+    <string name="dummy_area">1.5 HA</string>
+    <string name="division">Bagian</string>
+    <string name="activity">Aktivitas</string>
+    <string name="dummy_location">001A</string>
+    <string name="observer">Pengamat</string>
+    <string name="observer_null">Belum Dipilih</string>
+    <string name="title_poros_gulud">Jarak Antar Poros Gulud</string>
+    <string name="title_kuku_ridger">Kedalaman Kuku Ridger</string>
+    <string name="cm">cm</string>
+    <string name="title_no">No</string>
+    <string name="poros_gulud_cm">Jarak Poros (cm)</string>
+    <string name="kuku_ridger">Dalam Kuku (cm)</string>
+    <string name="sampel">Sampel</string>
+    <string name="title_achievement">Total Pencapaian</string>
+    <string name="delete">Hapus</string>
+    <string name="type_observation">Jenis Pengamatan</string>
+    <string name="observation">Pengamatan</string>
+    <string name="ttl_spl">TTL SPL</string>
+    <string name="stdr">STDR</string>
+    <string name="std"><![CDATA[<STD]]></string>
+    <string name="min">MIN</string>
+    <string name="max">MAX</string>
+    <string name="rata">RATA2</string>
+    <string name="pencapaian">Pencapaian</string>
+    <string name="pKualitas">Pencapaian Kualitas</string>
+    <string name="edit_data_ridger">Edit Data Ridger</string>
+    <string name="no_sampel">No Sampel</string>
+
+    <string-array name="list_type_observation">
+        <item>Pilih Pengamatan</item>
+        <item>Land Preparation</item>
+        <item>Planting</item>
+    </string-array>
+
+    <string-array name="list_activity">
+        <item>Pilih Aktifitas</item>
+        <item>Chopper</item>
+        <item>Ridger</item>
+        <item>Jalan dan Saluran</item>
+        <item>Bajak</item>
+        <item>Fin Harrow</item>
+        <item>Subsoil</item>
+    </string-array>
+
+    <string-array name="list_activity_planting">
+        <item>Pilih Aktifitas</item>
+        <item>Kualitas Bibit</item>
+        <item>Kualitas Tanam</item>
+    </string-array>
+
+    <string-array name="code_activity_landprep">
+        <item>0</item>
+        <item>1113511311</item>
+        <item>Code_Ridger</item>
+        <item>Code_Jalan dan Saluran</item>
+        <item>Code_Bajak</item>
+        <item>Code_Fin Harrow</item>
+        <item>Code_Subsoil</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "560730115193",
+    "project_id": "spkpengamatan",
+    "storage_bucket": "spkpengamatan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560730115193:android:dec647f235fa16e2fb18a8",
+        "android_client_info": {
+          "package_name": "com.ggpc.spkpengamatan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560730115193-u4dicogotjf4kl0ol6gpgm9sr2do881u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfyU3Fj5vWNjmLkFLP5ApprmlmUoI0hRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560730115193-u4dicogotjf4kl0ol6gpgm9sr2do881u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

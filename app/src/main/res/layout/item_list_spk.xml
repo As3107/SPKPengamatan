@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#009688">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_title_no_spk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_no_spk"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_no_spk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_no_spk"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="10dp"
+            app:layout_constraintLeft_toRightOf="@id/tv_title_no_spk"
+            app:layout_constraintTop_toTopOf="@id/tv_title_no_spk"/>
+
+        <TextView
+            android:id="@+id/tv_date_spk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_date"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_no_spk"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_document"
+            app:layout_constraintBottom_toBottomOf="@id/tv_date_spk"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_title_no_spk" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
